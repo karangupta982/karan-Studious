@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide default cursor */
+* {
+  cursor: none !important;
+}
+
+/* Custom cursor styles */
+.cursor-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #1FA2FF;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor-ring {
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid rgba(31, 162, 255, 0.5); */
+  /* background-color:rgba(31, 162, 255, 0.5); */
+  background-color: #1FA2FF;
+  opacity: 0.8;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+
+
+
+
+    
