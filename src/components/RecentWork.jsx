@@ -17,7 +17,7 @@ const RecentWork = () => {
         title: "Apni Coaching - Online Learning Platform",
         description: "A comprehensive ed-tech platform built with MERN stack that enables instructors to create and manage courses while providing students with a seamless learning experience. Features include secure authentication, payment integration, and a resource hub for engineering career paths.",
         technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS", "JWT", "Razorpay"],
-        image: ApniCoaching_img, // You should add your project's actual screenshot
+        image: ApniCoaching_img, 
         github: "https://github.com/karangupta982/ApniCoaching",
         live: "https://apnicoaching.netlify.app/",
         highlights: [

@@ -10,13 +10,15 @@ export const useIntersectionObserver = (options = {}) => {
       }
     }, options);
 
-    if (elementRef.current) {
-      observer.observe(elementRef.current);
+    const currentElement = elementRef.current;
+    if (currentElement) {
+      observer.observe(currentElement);
     }
 
     return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
+      if (currentElement && observer) {
+        observer.unobserve(currentElement);
+        observer.disconnect();
       }
     };
   }, [options]);
