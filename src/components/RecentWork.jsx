@@ -97,7 +97,6 @@ const RecentWork = () => {
   return (
     <>
         <div className="bg-richblack-900 min-h-screen text-white py-20">
-        {/* Hero Section */}
         <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -109,7 +108,7 @@ const RecentWork = () => {
             </p>
         </motion.div>
 
-        {/* Projects Grid */}
+        
         <div className="container mx-auto px-4 overflow-visible">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 overflow-visible">
             {projects.map((project, index) => (
@@ -120,7 +119,7 @@ const RecentWork = () => {
                 transition={{ duration: 0.5, delay: index * 0.2 }}
                 className="bg-richblack-800 rounded-xl overflow-hidden group"
                 >
-                {/* Project Image */}
+                
                 <div className="relative overflow-hidden h-64">
                     <img 
                     src={project.image} 
@@ -147,12 +146,12 @@ const RecentWork = () => {
                     </div>
                 </div>
 
-                {/* Project Info */}
+                
                 <div className="p-6">
                     <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
                     <p className="text-gray-400 mb-4">{project.description}</p>
                     
-                    {/* Technologies */}
+                    
                     <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech, i) => (
                         <span 
@@ -164,7 +163,7 @@ const RecentWork = () => {
                     ))}
                     </div>
 
-                    {/* Highlights */}
+                    
                     <ul className="space-y-2">
                     {project.highlights.map((highlight, i) => (
                         <li key={i} className="flex items-center gap-2">
@@ -179,7 +178,7 @@ const RecentWork = () => {
             </div>
         </div>
 
-        {/* Call to Action */}
+        
         <motion.div 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

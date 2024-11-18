@@ -60,7 +60,7 @@ const submitContactForm = async (data) => {
 
   return (
     <div className="bg-richblack-900 min-h-screen text-white py-20">
-      {/* Hero Section */}
+      
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -74,7 +74,7 @@ const submitContactForm = async (data) => {
 
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
+          
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -101,7 +101,7 @@ const submitContactForm = async (data) => {
             ))}
           </motion.div>
 
-          {/* Contact Form */}
+          
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}

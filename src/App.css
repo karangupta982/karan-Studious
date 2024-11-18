@@ -96,30 +96,13 @@
 }
 
 
-/* .gradient-text:hover {
-   
-   font: bold;
-  background: linear-gradient(to right, #1FA2FF, #12D8FA, #A6FFCB);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  transition: color 0.3s ease-in-out;
-}
-
-.gradient-text:hover {
-  color: transparent; 
-} */
-
-
-
-
 
 .button {
   border: 1.5px solid white;
   border-radius: 9999px;
   display: block;
-  font-size: 1.25rem /* 20px */;
-  line-height: 1.75rem /* 28px */;
+  font-size: 1.25rem ;
+  line-height: 1.75rem ;
   padding-left: 1vw;
   padding-right: 1vw;
   padding-top: 0.5vh;
@@ -176,7 +159,7 @@
   transform: translateX(0);
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .content h2 {
     font-size: 4em;
@@ -194,7 +177,7 @@
   }
 }
 
-/* Add these styles */
+
 .footer-link {
   position: relative;
   overflow: hidden;
@@ -229,7 +212,7 @@
   filter: brightness(1.2);
 }
 
-/* Add to existing styles */
+
 .parallax-container {
   perspective: 1px;
   height: 100vh;
@@ -262,7 +245,7 @@
   }
 }
 
-/* Project card animations */
+
 .project-card {
   transition: transform 0.3s ease;
 }
@@ -271,7 +254,7 @@
   transform: translateY(-10px);
 }
 
-/* Image hover effect */
+
 .project-image {
   transition: all 0.5s ease;
 }

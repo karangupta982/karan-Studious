@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import imgLogo from "../assets/laptop.jpg"
 import { FaCode, FaServer, FaDatabase, FaBrain } from 'react-icons/fa';
-import { SiLeetcode, SiGeeksforgeeks, SiGithub } from 'react-icons/si';
+import { SiLeetcode, SiGeeksforgeeks} from 'react-icons/si';
 import Footer from './footer';
 
 const Activity = () => {
@@ -60,7 +60,7 @@ const Activity = () => {
   return (
     <>
         <div className="bg-richblack-900 min-h-screen text-white">
-        {/* Hero Section with Parallax */}
+        
         <div className="relative h-[60vh] overflow-hidden flex items-center justify-center">
             <div 
             className="absolute inset-0 bg-center  w-full bg-cover "
@@ -80,7 +80,7 @@ const Activity = () => {
             </motion.h1>
         </div>
 
-        {/* Skills Section */}
+        
         <div className="container mx-auto px-4 py-20">
             <h2 className="text-4xl font-bold mb-12 text-center overflow-visible">Technical Skills</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 overflow-visible">
@@ -109,7 +109,7 @@ const Activity = () => {
             </div>
         </div>
 
-        {/* Coding Profiles */}
+        
         <div className="bg-richblack-800 py-20">
             <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold mb-12 text-center overflow-visible">Coding Profiles</h2>
@@ -142,20 +142,11 @@ const Activity = () => {
             </div>
         </div>
 
-        {/* Current Activities */}
+        
         <div className="container mx-auto px-4 py-20 ">
             <h2 className="text-4xl font-bold mb-12 text-center overflow-visible ">Current Activities</h2>
             <div className=" flex flex-col gap-[2vh] ">
-            {/* <div>
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    className="bg-richblack-800 p-6 rounded-lg"
-                >
-                    <h3 className="text-2xl font-semibold mb-4">Building Portfolio Projects</h3>
-                    <p className="text-gray-300">Currently working on several full-stack applications using the MERN stack...</p>
-                </motion.div>
-            </div> */}
+
 
             <div className='h-[26vh] overflow-visible'>
             <motion.div
@@ -195,7 +186,7 @@ const Activity = () => {
                     </p>
                 </motion.div>
             </div>
-            {/* Add more current activities */}
+            
             </div>
         </div>
         </div>

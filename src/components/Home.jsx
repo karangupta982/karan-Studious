@@ -149,28 +149,6 @@ const Home = ({ids}) => {
               Passionate full-stack developer specializing in MERN stack development. 
               Creating innovative web solutions with a focus on user experience and performance.
             </p>
-            {/* <div className="flex gap-4 overflow-visible">
-              <Link to="/recentwork">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-black px-6 py-3 rounded-lg font-semibold"
-                >
-                  View Projects
-                </motion.button>
-              </Link>
-              <Link to="/contact">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="border-2 border-[#1FA2FF] text-white px-6 py-3 rounded-lg font-semibold"
-                >
-                  Contact Me
-                </motion.button>
-              </Link>
-            </div> */}
-
-
 
           <div className="flex gap-4 overflow-hidden p-2">
             <Link to="/recentwork">
@@ -196,7 +174,7 @@ const Home = ({ids}) => {
           </motion.div>
         </div>
 
-        {/* Image Section */}
+        
         <div className="w-full md:w-1/2 flex justify-center items-center py-10 md:py-0">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -211,7 +189,7 @@ const Home = ({ids}) => {
           </motion.div>
         </div>
 
-        {/* Scroll Indicator */}
+        
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
@@ -221,7 +199,7 @@ const Home = ({ids}) => {
         </motion.div>
       </div>
 
-      {/* About Section */}
+     
       <div className="w-full bg-white py-20 fade-in" ref={aboutRef}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -250,7 +228,7 @@ const Home = ({ids}) => {
         </motion.div>
       </div>
 
-      {/* Contact Section */}
+      
       <div ref={contactRef} className="bg-richblack-900 py-20" id="contactMe">
         <div className="container mx-auto px-6 md:px-16">
           <div className="flex flex-col md:flex-row items-center gap-12">

@@ -12,10 +12,8 @@ const Footer = () => {
       </div>
       <hr className="h-[3px] bg-richblack-900 opacity-50"/>
       <div className="flex gap-[2vw] justify-center items-center h-[15vh] text-xl">
-        {/* <a href={`#${ids.home}`} className="footer-link">Home</a> */}
         <Link to="/activity" className="footer-link">Activity</Link>
         <Link to="/recentwork" className="footer-link">Recent Work</Link>
-        {/* <a href={`#${ids.aboutMe}`} className="footer-link">About Me</a> */}
         <Link to="/contact" className="footer-link">Contact Me</Link>
       </div>
       <hr className="h-[3px] bg-richblack-900 opacity-50"/>
