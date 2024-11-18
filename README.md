@@ -3,7 +3,7 @@
 A modern, responsive portfolio website built with React, showcasing my projects and technical skills.
 
 ## 🚀 Live Demo
-[Visit Website](https://your-portfolio-url.com)
+[Visit Website](https://karanstudious.netlify.app/)
 
 ## ✨ Features
 
