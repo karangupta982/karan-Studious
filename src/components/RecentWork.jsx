@@ -8,6 +8,7 @@ import TaskManager_img from "../assets/taskmanager.png";
 import SecureAuth_img from "../assets/authsystem.png";
 import GlobalWeather_img from "../assets/globalweather.png";
 import UniquePasswordGenerator_img from "../assets/passwordgenerator.png";    
+import MiniCanva from "../assets/miniCanva.png";    
 
 
 
@@ -26,6 +27,23 @@ const RecentWork = () => {
           "Created responsive UI with Tailwind CSS for all device sizes",
           "Developed resource hub for engineering career guidance",
           "Integrated course review and rating system"
+        ]
+      },
+
+      {
+        title: "Mini Canva : Simple Canva Like Editor ",
+        description: "The Canvas Feature project is designed to empower users with the ability to create, edit, and manipulate draggable text elements on a canvas. This intuitive tool allows for extensive customization of text, including font changes, size adjustments, styling options, and alignment settings. Additionally, users can easily undo and redo their actions, enhancing the editing experience.",
+        technologies: ["Complex Java Script, HTML5, CSS3"],
+        image: MiniCanva, 
+        github: "https://github.com/karangupta982/Mini_Canva",
+        live: "https://karangupta982.github.io/Mini_Canva/",
+        highlights: [
+          "Draggable Text: Users can create text elements that can be freely moved around the canvas.",
+          "Text Editing: Simply double-click on any text element to modify its content.",
+          "Font Customization: Change the font family and size to suit your design needs.",
+          "Text Styling: Easily toggle bold and italic styles for enhanced text presentation.",
+          "Text Alignment: Align text to the left, center, or right for better layout control.",
+          "Undo/Redo Functionality: Keep track of your changes and revert to previous states effortlessly."
         ]
       },
 
