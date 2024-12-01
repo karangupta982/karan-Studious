@@ -126,12 +126,12 @@ const Activity = () => {
                 >
                     <div className="flex items-center gap-4 mb-6">
                     {profile.icon}
-                    <h3 className="text-2xl font-semibold">{profile.platform}</h3>
+                    <h3 className="text-2xl font-semibold overflow-visible">{profile.platform}</h3>
                     </div>
                     <div className="grid grid-cols-3 gap-4">
                     {Object.entries(profile.stats).map(([key, value]) => (
                         <div key={key} className="text-center">
-                        <div className="text-2xl font-bold text-blue-500">{value}</div>
+                        <div className="text-2xl font-bold text-blue-500 overflow-visible">{value}</div>
                         <div className="text-sm text-gray-400">{key}</div>
                         </div>
                     ))}
@@ -154,7 +154,10 @@ const Activity = () => {
                 whileInView={{ opacity: 1, y: 20 }}
                 className="bg-richblack-800 p-6 rounded-lg "
             >
-                <h3 className="text-2xl font-semibold mb-4">Looking for Internships</h3>
+                <div className='flex justify-between'>
+                  <h3 className="text-2xl font-semibold mb-4 overflow-visible">Looking for Internships</h3>
+                  <p className='mr-5 mt-1'>30-11-2024</p>
+                </div>
                 <p className="text-gray-300">
                     Actively seeking software development internship opportunities where I can apply my skills in full-stack development, particularly with React, Node.js, and modern web technologies. Eager to contribute to meaningful projects while learning from experienced developers in a professional environment.
                 </p>
@@ -167,7 +170,11 @@ const Activity = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     className="bg-richblack-800 p-6 rounded-lg"
                 >
-                    <h3 className="text-2xl font-semibold mb-4">Building NLP Project</h3>
+                    
+                    <div className='flex justify-between'>
+                      <h3 className="text-2xl font-semibold mb-4 overflow-visible">Building NLP Project</h3>
+                      <p className='mr-5 mt-1'>30-11-2024</p>
+                    </div>
                     <p className="text-gray-300">
         Currently developing a Natural Language Processing (NLP) project that leverages machine learning algorithms to analyze and process text data. Working with Python, sciket learn and NLTK to build models for text classification, sentiment analysis, and language understanding. This project aims to demonstrate practical applications of NLP in real-world scenarios while deepening my understanding of machine learning concepts, working on quora dataset for merging multiple question having same answer together.
                     </p>
@@ -180,7 +187,10 @@ const Activity = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     className="bg-richblack-800 p-6 rounded-lg"
                 >
-                    <h3 className="text-2xl font-semibold mb-4">Maintaining Leetcode Daily Streek</h3>
+                    <div className='flex justify-between'>
+                      <h3 className="text-2xl font-semibold mb-4 overflow-visible">Maintaining Leetcode Daily Streek</h3>
+                      <p className='mr-5 mt-1'>30-11-2024</p>
+                    </div>
                     <p className="text-gray-300">
                     Consistently solving LeetCode's daily coding challenges for more than 4 months, strengthening my problem-solving abilities and algorithmic thinking. This daily practice has helped me develop a deeper understanding of data structures, algorithms, and optimization techniques while preparing for technical interviews.
                     </p>
