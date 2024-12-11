@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx,css}",
   ],
   theme:{
     fontFamily: {
@@ -130,6 +130,19 @@ module.exports = {
       maxWidth: {
         maxContent: "1260px",
         maxContentTab: "650px"
+      },
+      animation: {
+        animate: 'animate 5s forwards',
+      },
+      keyframes: {
+        animate: {
+          '0%': { clipPath: 'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)' },
+          '20%': { clipPath: 'polygon(0% 80%, 100% 80%, 100% 100%, 0% 100%)' },
+          '40%': { clipPath: 'polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%)' },
+          '60%': { clipPath: 'polygon(0% 40%, 100% 40%, 100% 100%, 0% 100%)' },
+          '80%': { clipPath: 'polygon(0% 20%, 100% 20%, 100% 100%, 0% 100%)' },
+          '100%': { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)' },
+        },
       },
     },
   },
