@@ -1,6 +1,5 @@
 import React from 'react'
 import './PreLoader.css'
-import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
